@@ -23,6 +23,14 @@ public class OperasiString{
         System.out.println(kota.length());
         System.out.println(kota.substring(6));
         System.out.println(kota.substring(4,7));
+        System.out.println("==========================");
 
+        String hariIni = "2024-04-27";
+
+        String tahun = hariIni.substring(0,4);
+        String bulan = hariIni.substring(5,7);
+        String tanggal = hariIni.substring(8,10);
+
+        System.out.println(tanggal + "-" + bulan + "-" +tahun);
     }
 }
